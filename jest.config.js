@@ -3,7 +3,7 @@ module.exports = {
     'jest-plugin-context/setup',
     './jest.setup',
   ],
-  testEnvironment: 'jsdom',
+  testEnvironment: 'jsdom', // <-- solves document is not defined
   coverageThreshold: {
     global: {
       branches: 100,
